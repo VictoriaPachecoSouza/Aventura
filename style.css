@@ -1,7 +1,7 @@
 body {
-    background-color: #0d4178;
+    background-color:  rgb(12, 56, 97);
     color: white;
-    font-family: "Bai Jamjuree", sans-serif;
+    font-family: "Funnel Display", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,24 +10,25 @@ body {
 }
 
 button {
-    background-color: #68dfe5;
-    color: rgb(255, 255, 255);
-    font-family: "Bai Jamjuree", sans-serif;
+background-color: rgb(151, 216, 247);
+color: rgb(32, 32, 32);
+font-family: "Funnel Display", sans-serif;
 }
 
 .passo {
     display: none;
 }
 
-.passo.ativo {
-    display:block;
+.passo.ativo{
+
+display: block;
 }
 
 main {
-    text-align: center;
+text-align: center;
+    max-width: 90%;
+}
+img{
     max-width: 90%;
 }
 
-img {
-    max-width: 90%;
-}
